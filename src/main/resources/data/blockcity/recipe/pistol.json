@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "IR "],
+  "key": { "I": { "item": "minecraft:iron_ingot" }, "R": { "item": "minecraft:redstone" } },
+  "result": { "id": "blockcity:pistol", "count": 1 }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "blockcity",
+  "version": "${version}",
+  "name": "Block City",
+  "description": "Gameplay open-world in stil GTA peste lumea de blocuri Minecraft: vehicule, politie, wanted, minimap, pistol, pietoni. Toate asseturile sunt originale.",
+  "authors": ["Block City"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.blockcity.BlockCityMod"],
+    "client": ["com.blockcity.client.BlockCityClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
